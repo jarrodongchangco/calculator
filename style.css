@@ -1,0 +1,99 @@
+:root {
+    /* --colNum: 4;
+    --buttonHeight: 240px;
+    --buttonWidth: 240px; */
+  }
+  body {
+  }
+  
+  * {
+      box-sizing: border-box;
+    }
+  
+    
+  .grid-container {
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: grey;
+    padding: 10px;
+    height: 600px;
+    width: 500px;
+    /* grid-template-areas */
+  }
+  
+  .grid-numbers {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-operators {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .numberDisplay {
+    grid-column: 1 / span 4;
+    height: 100;
+    width: 100%;
+    background-color: white;
+    margin: center; 
+    position: relative
+  }
+  .display-span {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 40px;
+  }
+  
+  .centering--div{
+    display: flex;                                
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: grey;
+    height: 100%
+
+  }
+  main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+  }
+  
+  .btn--clear {
+    grid-column: 1 / span 4;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  /* main {
+    background: brown;
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+  }
+  
+  main div {
+    background: black;
+    color: grey;
+    width: 50%;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+  } */
+ 
+  
